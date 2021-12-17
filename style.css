@@ -47,9 +47,11 @@ img {
 }
 .benzine_motor {
   width: 150px;
+  padding-bottom: 50px; 
 }
 .diesel_motor {
   width: 300px;
+  padding-bottom: 50px; 
 }
 .jquery {
   padding-top: 25px;
