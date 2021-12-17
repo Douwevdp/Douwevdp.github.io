@@ -72,6 +72,12 @@ $(document).ready(function(){
   $("#show_stations").click(function(){
     $(".stations").show();
   });
+  $("#hide_cabriolets").click(function(){
+    $(".cabriolets").hide();
+  });
+  $("#show_cabriolets").click(function(){
+    $(".cabriolets").show();
+  });
 });
 </script>
 
@@ -146,17 +152,22 @@ $(document).ready(function(){
     <button id="show_stations">Show stations</button>
   </div>
 
-<h2>Cabriolet</h2>
-  <p id="plaatje4"><img src="https://www.mercedes-benz.nl/passengercars/mercedes-benz-cars/roadster-cabriolet/model-overview-e-class-cabriolet-a238/_jcr_content/par/productinfotextimage/media2/slides/videoimageslide/image.MQ6.7.20210301131855.jpeg"></p>
+<h2 class="cabriolets">Cabriolet</h2>
+  <p id="plaatje4" class="cabriolets"><img src="https://www.mercedes-benz.nl/passengercars/mercedes-benz-cars/roadster-cabriolet/model-overview-e-class-cabriolet-a238/_jcr_content/par/productinfotextimage/media2/slides/videoimageslide/image.MQ6.7.20210301131855.jpeg"></p>
 
-  <p>
+  <p class="cabriolets">
     <button onclick="myFunction7()"> eerste Cabriolet </button>
     <button onclick="myFunction8()"> tweede Cabriolet </button>
   </p>
 
-  <p>
+  <p class="cabriolets">
     Een cabriolet is een carrosserievorm voor een auto en vernoemd naar een open rijtuig. De uitvoering is voorzien van een inklapbaar dak.
   </p>
+    
+  <div class="jquery">
+    <button id="hide_cabriolets">Hide cabriolets</button>
+    <button id="show_cabriolets">Show cabriolets</button>
+  </div>
 
 <h2>Coupé</h2>
   <p id="plaatje5"><img src="https://autotijd.be/images/bmw/2021/2-reeks-coupe/prijzen/bmw-2-reeks-coupe-2021-prijzen-01.jpg"></p>
@@ -170,6 +181,8 @@ $(document).ready(function(){
     Een coupé is een aan de achterzijde naar beneden aflopende sportieve carrosserievorm bij een auto.
   </p>
 
+
+    
 <h2>Multi Purpose Vehicle (MVP)</h2>
   <p id="plaatje6"><img src="https://cdn-ds.com/blogs-media/sites/282/2021/02/24184353/2022-kia-carnival-123_o.jpg"></p>
 
