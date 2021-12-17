@@ -90,6 +90,12 @@ $(document).ready(function(){
   $("#show_MVPs").click(function(){
     $(".MVPs").show();
   });
+  $("#hide_Terreinautos").click(function(){
+    $(".Terreinautos").hide();
+  });
+  $("#show_Terreinautos").click(function(){
+    $(".Terreinautos").show();
+  });
 });
 </script>
 
@@ -215,16 +221,21 @@ $(document).ready(function(){
     <button id="show_MVPs">Show MVPs</button>
   </div>
 
-<h2>Terreinauto</h2>
-  <p id="plaatje7"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-YUWZVyOK45OpWDjLmLaD7V9u_4EHngK0Fw&usqp=CAU"></p>
+<h2 class="Terreinautos">Terreinauto</h2>
+  <p id="plaatje7" class="Terreinautos"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-YUWZVyOK45OpWDjLmLaD7V9u_4EHngK0Fw&usqp=CAU"></p>
 
-  <p>
+  <p class="Terreinautos">
     <button onclick="myFunction13()"> eerste Terreinauto </button>
     <button onclick="myFunction14()"> tweede Terreinauto </button>
   </p>
 
-  <p>
+  <p class="Terreinautos">
     Een terreinauto is een type voertuig dat zowel op verharde en onverharde wegen als daarbuiten kan rijden. Meestal heeft een terreinauto grote banden met veel profiel, flexibele wielophanging en zijn meer dan twee wielen aangedreven.
   </p>
+    
+  <div class="jquery">
+    <button id="hide_Terreinautos">Hide Terreinautos</button>
+    <button id="show_Terreinautos">Show Terreinautos</button>
+  </div>
 
 </body>
