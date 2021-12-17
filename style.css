@@ -50,5 +50,8 @@ img {
   text-align: center;
 }
 div {
-
+padding: 10px 10px 10px 10px;
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
 }
