@@ -78,6 +78,12 @@ $(document).ready(function(){
   $("#show_cabriolets").click(function(){
     $(".cabriolets").show();
   });
+  $("#hide_coupés").click(function(){
+    $(".coupés").hide();
+  });
+  $("#show_coupés").click(function(){
+    $(".coupés").show();
+  });
 });
 </script>
 
@@ -169,19 +175,22 @@ $(document).ready(function(){
     <button id="show_cabriolets">Show cabriolets</button>
   </div>
 
-<h2>Coupé</h2>
-  <p id="plaatje5"><img src="https://autotijd.be/images/bmw/2021/2-reeks-coupe/prijzen/bmw-2-reeks-coupe-2021-prijzen-01.jpg"></p>
+<h2 class="coupés">Coupé</h2>
+  <p id="plaatje5" class="coupés"><img src="https://autotijd.be/images/bmw/2021/2-reeks-coupe/prijzen/bmw-2-reeks-coupe-2021-prijzen-01.jpg"></p>
 
-  <p>
+  <p class="coupés">
     <button onclick="myFunction9()"> eerste Coupé </button>
     <button onclick="myFunction10()"> tweede Coupé </button>
   </p>
 
-  <p>
+  <p class="coupés">
     Een coupé is een aan de achterzijde naar beneden aflopende sportieve carrosserievorm bij een auto.
   </p>
 
-
+  <div class="jquery">
+    <button id="hide_coupés">Hide coupés</button>
+    <button id="show_coupés">Show coupés</button>
+  </div>
     
 <h2>Multi Purpose Vehicle (MVP)</h2>
   <p id="plaatje6"><img src="https://cdn-ds.com/blogs-media/sites/282/2021/02/24184353/2022-kia-carnival-123_o.jpg"></p>
