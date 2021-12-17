@@ -45,8 +45,11 @@ ol.num {
 img {
   width: 750px;
 }
-.geanimeerde_motors {
+.benzine_motor {
   width: 150px;
+}
+.diesel_motor {
+  width: 300px;
 }
 .jquery {
   padding-top: 25px;
