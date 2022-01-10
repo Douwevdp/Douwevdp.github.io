@@ -75,7 +75,4 @@ table {
 th, td {
   text-align: center;
 }
-table.Taken {
-  table-layout: auto;
-  width: 180px;
-}
+
