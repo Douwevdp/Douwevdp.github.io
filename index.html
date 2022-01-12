@@ -8,7 +8,7 @@
 <script> 
 $(document).ready(function(){
   $("#index_gif_flip").click(function(){
-    $("#index_gif_panel").slideDown("slow");
+    $("#index_gif_panel").slideToggle();
   });
 });
 </script>
@@ -33,9 +33,11 @@ $(document).ready(function(){
     Welke soorten auto's er zijn, beroemde automerken, welke brandstoffen zijn er, waar we alle bronnen vandaan haalden en onze taakverdeling.
   </p>
 
+  
   <p>
     <button id"index_gif_flip">gif van auto</button>
   </p>
+  
   <p id="index_gif_panel">
   <img src="https://media3.giphy.com/media/D4zbzXKSl9tOE/giphy.gif">
   </p>
