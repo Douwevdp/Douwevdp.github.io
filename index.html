@@ -2,7 +2,16 @@
 
 <head>
   <link rel="stylesheet" href="style.css">
-</head>
+ </head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#index_gif_flip").click(function(){
+    $("#index_gif_panel").slideDown("slow");
+  });
+});
+</script>
 
 <body>
   <div class="navigatie">
@@ -24,7 +33,7 @@
     Welke soorten auto's er zijn, beroemde automerken, welke brandstoffen zijn er, waar we alle bronnen vandaan haalden en onze taakverdeling.
   </p>
 
-  <button id"index_gif_slide">gif van auto</button>
+  <button id"index_gif_flip">gif van auto</button>
   <p id="index_gif_panel">
   <img src="https://media3.giphy.com/media/D4zbzXKSl9tOE/giphy.gif">
   </p>
