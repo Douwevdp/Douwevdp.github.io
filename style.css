@@ -78,3 +78,6 @@ th, td {
 button {
   margin: auto;
 }
+#index_gif_panel {
+  display: none;
+}
