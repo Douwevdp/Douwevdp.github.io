@@ -75,4 +75,6 @@ table {
 th, td {
   text-align: center;
 }
-
+button {
+  margin: auto;
+}
